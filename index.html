@@ -74,14 +74,20 @@
   </section>
 
   <section class="contact" id="contact">
-    <h2>Contact Me</h2>
-    <p>Interested in collaborating? Let's connect!</p>
-    <form class="contact-form" onsubmit="return false;">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn primary">Send Message</button>
-    </form>
+    <h3>Contact Me</h3>
+<form action="https://formspree.io/f/mdkzzarn" method="POST">
+  <label for="name">Your Name</label><br>
+  <input type="text" name="name" required><br><br>
+
+  <label for="email">Your Email</label><br>
+  <input type="email" name="email" required><br><br>
+
+  <label for="message">Your Message</label><br>
+  <textarea name="message" rows="5" required></textarea><br><br>
+
+  <button type="submit">Send</button>
+</form>
+
   </section>
 
   <footer>
