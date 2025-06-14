@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Rants'itile Ramone - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <h1>RRD</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm Rants'itile Ramone Dominic</h1>
+      <h2>Creative Developer from Lesotho</h2>
+      <p>Building innovative web solutions with passion and precision.</p>
+      <div class="hero-buttons">
+        <a href="projects.html" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn secondary">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="images/me.jpg" alt="Rants'itile Ramone" />
+    </div>
+  </section>
+
+  <section class="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <a href="projects.html#web-development" class="skill-card">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>Proficient in HTML, CSS, JavaScript, and modern frameworks.</p>
+      </a>
+      <a href="projects.html#ui-ux-design" class="skill-card">
+        <i class="fas fa-paint-brush"></i>
+        <h3>UI/UX Design</h3>
+        <p>Crafting intuitive and visually appealing user interfaces.</p>
+      </a>
+      <a href="projects.html#responsive-design" class="skill-card">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Responsive Design</h3>
+        <p>Creating seamless experiences across all devices.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="video">
+    <h2>Watch My Intro</h2>
+    <div class="video-container">
+      <video controls width="100%" poster="images/video-poster.jpg">
+        <source src="videos/aaa.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Interested in collaborating? Let's connect!</p>
+    <form class="contact-form" onsubmit="return false;">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn primary">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Rants'itile Ramone Dominic. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
